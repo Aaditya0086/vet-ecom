@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+footer{
+  padding: 1rem;
+  background-color: forestgreen;
+  color: #fff;
+  
+}
+
+footer h2{
+  color: #fff;
+  font-size: 3rem;
+
+}
+
+footer li{
+  list-style: none;
+  color: white;
+  font-size: 2rem;
+  font-weight: lighter;
+  cursor: pointer;
+  margin: 1rem, 0;
+}
+
+/* footer li:hover{
+  color: var(--primary-color);
+} */
+
+footer .main-hero-para{
+  margin: 0rem;
+  padding: 0rem;
+  font-size: 1.2rem;
+}
+
+:root{
+  --bs-link-color: #fff;
+  --bs-link-hover-color: #000000;
+}
+
+.p1{
+  background-image: url(https://media.wired.com/photos/60513229315b70928657dbfd/16:9/w_2400,h_1350,c_limit/OpEd-Cows-1231473414.jpg);
+  color: white;
+  background-size: 120rem 60rem;
+  background-repeat: no-repeat;
+  opacity: calc(1);
+  /* backface-visibility: calc(0.5) ; */
+  background-attachment: fixed;
+  text-align: center;
+}
+
+.p2{
+  background-image: url('/src/Components/images/dog.jpg');
+  color: white;
+  background-size: 120rem 60rem;
+  background-repeat: no-repeat;
+  opacity: calc(1);
+  /* backface-visibility: calc(0.5) ; */
+  background-attachment: fixed;
+  text-align: center;
+}
+
+html{
+  font-size: 10px;
+}
